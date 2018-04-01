@@ -18,8 +18,6 @@ public:
 	List();
 	~List();
 	void push(char inputData);
-	void deleteBeg();
-	char returnBeg();
 	char next();
 	void decrease();
 	void del();

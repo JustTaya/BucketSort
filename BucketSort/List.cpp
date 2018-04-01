@@ -45,18 +45,6 @@ void List::push(char inputData)
 		findPush(inputData, this->begnode);
 }
 
-void List::deleteBeg()
-{
-	Value *tmp = this->begnode;
-	this->begnode = this->begnode->next;
-	size--;
-	delete tmp;
-}
-
-char List::returnBeg()
-{
-	return (this->begnode->data);
-}
 
 char List::next()
 {
